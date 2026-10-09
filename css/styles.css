@@ -71,7 +71,7 @@
     }
     .hero-copy{
       margin-top:clamp(126px,14.5vh,172px);color:#fff;text-align:center;
-      font-size:clamp(52px,3.45vw,66px);line-height:.99;letter-spacing:-.045em;
+      font-size:clamp(52px,3.45vw,66px);line-height:1.08;letter-spacing:-.045em;
       max-width:980px;will-change:transform,opacity;
     }
     .hero-kicker{
@@ -80,7 +80,7 @@
       opacity:0;transform:translateY(12px);
     }
     .hero-kicker:before{content:"";width:8px;height:8px;background:var(--blue);border-radius:1px;box-shadow:0 0 0 4px rgba(0,62,155,.2)}
-    .hero-copy .line{overflow:hidden;padding:.035em .04em .08em}
+    .hero-copy .line{overflow:hidden;padding:.035em .04em .18em}
     .hero-copy .line span{display:inline-block;transform:translateY(118%)}
     .hero-copy .serif{font-weight:600;letter-spacing:-.055em}
     .hero-copy .accent{position:relative;display:inline-block}
@@ -167,7 +167,7 @@
       .site-header{height:72px;padding:0 16px}.nav a:not(.cta){display:none}.brand-copy{display:none}
       .hero{min-height:700px;max-height:none}
       .hero-content{width:min(100% - 32px,1560px)}
-      .hero-copy{margin-top:128px;font-size:clamp(38px,10vw,52px);max-width:94%;line-height:1.01}
+      .hero-copy{margin-top:128px;font-size:clamp(38px,10vw,52px);max-width:94%;line-height:1.08}
       .hero-kicker{font-size:9px;margin-bottom:18px;letter-spacing:.14em}
       .hero-subline{max-width:360px;font-size:12px;margin-top:18px}
       .hero-meta{bottom:20px}.hero-meta .meta-left{display:none}.hero-scroll{font-size:9px}
